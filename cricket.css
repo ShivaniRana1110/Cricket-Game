@@ -1,0 +1,55 @@
+body {
+    height: 100vh;
+    text-align: center;
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /* Optional: Scale image to cover entire area */
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.838);
+    
+    
+      
+  }
+  .htext{
+    color: white;
+    font-size: 900;
+    font-weight: bolder;
+    font-style: italic;
+  }
+  
+  .choice-button {
+    display: flex;
+    display: inline;
+    height: 100px;
+    width: 100px;
+    border: none;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .choice-button:hover{
+    background-color: darkcyan;
+  }
+  
+  .choice-image {
+    height: 75px;
+  }
+  #user-move, #computer-move, #result, #score{
+    background-color: rgb(23, 154, 150);
+    color: white;
+  }
+  #res{
+    height: 60px;
+    width: 100px;
+    border: none;
+    background-color: rgba(199, 64, 64, 0.865);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  #res:hover{
+    background-color: rgb(23, 154, 150);
+  }
+  
